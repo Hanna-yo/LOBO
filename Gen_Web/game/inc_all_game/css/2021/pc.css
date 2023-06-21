@@ -1,0 +1,225 @@
+/*
+	2021/07/28
+*/
+
+html
+{
+	background: #0F1436;
+}
+
+html.active
+{
+	overflow: hidden;
+}
+
+body
+{
+	position: relative;
+	overflow: hidden;
+}
+
+body::after
+{
+	background: radial-gradient(ellipse at center, rgba(125,185,232,0) 0%,rgba(78,115,144,0) 50%,rgba(0,0,0,1) 100%);
+	content: '';
+	width: 100%;
+	height: calc(100% + 15.625vw);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+/*1***    Class    *****/
+.DevicePc
+{
+	display: block;
+}
+
+.DeviceMobile
+{
+	display: none;
+}
+
+/*************** 共同 ***************/
+/*1***    Hall    *****/
+.indexBox
+{
+	width: 100%;
+	position: relative;
+	min-height: 100vh;
+	/* padding: 35px 140px 0 140px; */
+	padding: 1.822vw 7.291vw 0 7.291vw;
+}
+
+/*2**   Hall-Bg   ****/
+.indexBg
+{
+	background-size: 100% auto !important;
+	background-repeat: repeat-y !important;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+	animation: aniOpa .5s ease-in-out forwards;
+}
+
+@keyframes aniOpa
+{
+	from
+	{
+		opacity: 0;
+	}
+
+	to
+	{
+		opacity: 1;
+	}
+}
+
+/*2**   Hall-Header   ****/
+.indexHeaderBox
+{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 0 0 3.9025vw 0;
+}
+
+/*3*  Hall-Header-Logo  ***/
+.indexHeaderLogo
+{
+	width: 21.614vw;
+	display: block;
+}
+
+/*3*  Hall-Header-Inf  ***/
+.indexHeaderInfBox , .indexHeaderInfInner
+{
+	border-radius: 2.08vw;
+}
+
+.indexHeaderInfBox
+{
+	background: linear-gradient(to bottom,#CDD4EC 0%,#AEB6D6 100%);
+	flex: 1;
+	padding: .3645vw;
+	margin: 0 9.375vw 0 2.08vw;
+}
+
+.indexHeaderInfInner
+{
+	background: linear-gradient(to bottom,#A467C5 0%,#7E519C 100%);
+	box-shadow: inset 0 .5729vw 0 0 rgba(255,255,255,.2), inset 0 -.5208vw 0 0 rgba(0,0,0,.1);
+	padding: .885vw .2604vw .885vw 1.5625vw;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.indexHeaderInf
+{
+	box-shadow: inset 0 8px 0 0 rgba(0,0,0,.1);
+	background: rgba(0,0,0,.3);
+	border-radius: 999rem;
+	width: 18.75vw;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	word-break: break-all;
+}
+
+.indexHeaderInf:not(:last-child)
+{
+	margin: 0 1.041vw 0 0;
+}
+
+.indexHeaderInfIcon
+{
+	width: 3.208vw;
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.indexHeaderInfValTxt
+{
+	color: #FFFFFF;
+	font-size: 1.25vw;
+	font-weight: bold;
+	padding: .2604vw .78125vw;
+}
+
+/*3*  Hall-Header-Back  ***/
+.indexHeaderBtnBack
+{
+	width: 5.9895vw;
+	display: block;
+}
+
+/*2**   Hall-game   ****/
+.indexGameBox
+{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	word-break: break-all;
+}
+
+.indexGameBtn
+{
+	display: block;
+	cursor: pointer;
+	width: calc((100% - 11.7075vw)/4);
+	margin: 0 0 1.5625vw 0;
+}
+
+.indexGameBtn.maintain
+{
+	filter: grayscale(1);
+}
+
+.indexGameBtn:not(:nth-child(4n))
+{
+	margin: 0 3.9025vw 1.5625vw 0;
+}
+
+.indexGameBtnImgBox
+{
+	position: relative;
+}
+
+.indexGameBtnImg
+{
+	margin: 0 0 .78125vw 0;
+}
+
+.indexGameBtnImgTxt
+{
+	color: #FFFFFF;
+	text-shadow: 0 0 4px black;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	width: 100%;
+	word-break: break-all;
+	font-size: 2.5vw;	
+}
+
+.indexGameBtnTxt
+{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: .9375vw;
+	font-weight: bold;
+}

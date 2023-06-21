@@ -1,0 +1,512 @@
+/* ALL */
+.inx_body
+{
+	font-family: Arial,"微軟正黑體","PMingLiU","Microsoft JhengHei","Heiti TC","WenQuanYi Zen Hei";
+	color: #fff;
+}
+input:focus
+{
+	outline: 0;
+	background-color: #fff0;
+}
+.bright
+{
+	-webkit-filter: brightness(.5);
+}
+/* ALL END */
+/* index */
+/* loading */
+.loadingLogoDiv
+{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 16;
+	background-color: #fff;
+}
+.loadingLogoDiv img
+{
+	position: fixed;
+	max-width: 490px;
+	display: none;
+}
+.loadingLogoDiv p
+{
+	position: absolute;
+	width: 100%;
+	color: #000;
+	bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+	display: none;
+}
+.loadingOneDiv
+{
+	z-index: 15;
+}
+.loadingOne
+{
+	height: 100%;
+	width: 100%;
+	bottom: 0;
+}
+.loadingOneWord
+{
+	position: absolute;
+	bottom: 50px;
+	max-width: 348px;
+}
+.loadingOneOFrame, .loadingOneRFrame, .loadingOneNFrame, .loadingOneLightDiv
+{
+	position: absolute;
+	width: 75%;
+	height: 23px;
+	bottom: 25px;
+}
+.loadingOneRFrame
+{
+	width: 0;
+	border-radius: 50% 0 0 50%;
+	z-index: 1;
+}
+.loadingOneLightDiv div
+{
+	position: relative;
+	height: 21px;
+	left: 0;
+	bottom: 0;
+}
+.loadingOneLight
+{
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	height: 23px;
+	bottom: 0;
+}
+/* loading End */
+.inx_art, .loadingOneDiv
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	display: none;
+}
+.inx_art
+{
+	background: url("../img/hall/inx_bg.jpg") center center no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+.inx_art.mach_art
+{
+	display: block;
+}
+/* 系統文字 */
+.inx_sys
+{
+	background: rgb(7,7,8); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(7,7,8,1) 0%, rgba(33,33,34,.5) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(7,7,8,1) 0%,rgba(33,33,34,.5) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(7,7,8,1) 0%,rgba(33,33,34,.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#070708', endColorstr='#212122',GradientType=0 ); /* IE6-9 */
+	margin: auto;
+	padding: 0 10px;
+	position: fixed;
+	width: 260px;
+	height: 200px;
+	border: 1px solid #ffba26;
+	border-radius: 18px;
+	border-color: #ffbe01 #f9e502;
+	z-index: 10;
+}
+.inx_sys p
+{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 30px;
+	line-height: 1.5em;
+}
+.inx_sys .f1
+{
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* 系統文字 END */
+/* header */
+header
+{
+	position: relative;
+	z-index: 5;
+	width: 100%;
+	height: 145px;
+}
+.frame-div, header > img, .frame-name-div
+{
+	position: absolute;
+	display: block;
+}
+.frame_point
+{
+	max-width: 182px;
+	max-height: 42px;
+	margin-top: 13px;
+	display: none;
+}
+.frame-div, .frame-back
+{
+	top: -7px;
+}
+.frame1
+{
+	width: 490px;
+}
+.frame-div
+{
+	left: 0;
+}
+.frame-back
+{		
+	right: 0;
+	height: 112px;
+}
+.frame-back-img
+{
+	position: absolute;
+	top: 5px;
+	right: 27px;
+}
+.frame-name-div
+{
+	top: 19px;
+	left: 146px;
+}	
+.frame-circle, .frame-img
+{
+	position: absolute;
+	top: 14px;
+	left: 25px;
+}
+.frame-img
+{
+	max-width: 104px;
+	left: 28px;
+	top: 18px;
+}	
+.name
+{
+	font-size: 30px;
+	font-weight: bold;
+	-webkit-text-stroke: 1px #000;
+	min-height: 30px;
+	min-width: 1px;
+}
+.point
+{
+	font-size: 26px;
+	font-weight: bold;
+	width: 234px;
+	padding-top: 10px;
+	-webkit-text-stroke: 1px #000;
+}
+/* header END */
+/* section */
+.inx_sec
+{
+	display: block;
+	padding: 0 140px;
+}
+.inx_sec div
+{
+	display: inline;
+}
+.inx_table
+{
+	width: 100%;
+	max-width: 1084px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.inx_table a
+{
+	position: relative;
+	display: block;
+	width: 100%;
+	max-width: 230px;
+}
+.inx_table img
+{
+	display: block;
+	margin: auto;
+}
+.inx_table .game
+{
+	width: 100%;
+}	
+.inx_table .game_stop
+{
+	position: absolute;
+}
+.inx_table .game_maintain
+{
+	position: absolute;
+}
+/* machine */
+.mach_table td
+{
+	position: relative;
+}
+.mach_table a
+{
+	position: relative;
+	max-width: 170px;
+	margin: auto;
+}
+.mach_table span
+{
+	position: absolute;
+	top: 47px;
+	font-size: 23px;
+	font-weight: bold;
+	-webkit-text-stroke: .5px #494949;
+	color: #fff;
+}
+.btn-left, .btn-right
+{
+	position: absolute;
+	top: 360px;
+}
+.btn-left
+{
+	left: 182px;
+}
+.btn-right
+{
+	right: 182px;
+}
+/* machine END */
+/* section END */
+/* index END */
+@media screen and (max-width: 1290px)
+{
+	.btn-left
+	{
+		left: 70px;
+	}
+	.btn-right
+	{
+		right: 70px;
+	}
+}
+@media screen and (max-width: 790px)
+{
+	/* header */
+	header
+	{
+		height: 120px;
+	}
+	.frame-div img
+	{
+		max-height: 129px;
+	}
+	.frame-back
+	{		
+		max-height: 95px;
+	}
+	.frame-back-img img
+	{
+		width: 62px;
+	}
+	.frame1
+	{
+		width: 426px;
+	}
+	.frame-name-div
+	{
+		left: 126px;
+	}
+	.frame-div .frame-circle, .frame-div .frame-img
+	{
+		max-height: 100px;
+		top: 11px;
+		left: 19px;
+	}
+	.frame-div .frame-img
+	{
+		max-height: 92px;
+		top: 15px;
+		left: 22px;
+	}
+	.frame-name-div img
+	{
+		width: 227px;
+		max-height: 34px;
+	}
+	.name
+	{
+		font-size: 26px;
+		padding-bottom: 1px;
+		min-height: 29px;
+	}
+	.point
+	{
+		font-size: 22px;
+		top: 34px;
+		width: 204px;
+	}
+	/* header END */
+	/* index */
+	.inx_table .game_maintain
+	{
+		width: 160px;
+	}
+	.inx_table .game_stop
+	{
+		width: 90px;
+	}
+	/* machine */
+	.mach_table .game
+	{
+		width: 75px;
+	}
+	.mach_table span
+	{
+		top: 22px;
+		font-size: 9px;
+	}
+	.btn-left, .btn-right
+	{
+		top: 136px;
+		width: 30px;
+	}
+	.btn-left
+	{
+		left: 56px;
+	}
+	.btn-right
+	{
+		right: 56px;
+	}
+	/* machine END */
+	/* index END */
+}
+@media screen and (max-width: 750px)
+{
+	/* header */
+	header
+	{
+		height: 50px;
+	}
+	.frame-div img
+	{
+		max-height: 81px;
+	}
+	.frame1
+	{
+		width: 269px;
+	}
+	.frame-back
+	{		
+		max-height: 60px;
+	}
+	.frame-back-img
+	{
+		right: 19px;
+	}
+	.frame-img
+	{
+		max-height: 51px;
+		top: 16px;
+		left: 18px;
+	}
+	.frame-back-img img
+	{
+		width: 29px;
+	}
+	.frame-div .frame-circle, .frame-div .frame-img
+	{
+		max-height: 56px;
+		top: 13px;
+		left: 16px;
+	}
+	.frame-name-div img
+	{
+		width: 137px;
+		max-height: 19px;
+	}
+	.frame-name-div
+	{
+		top: 10px;
+		left: 79px;
+	}
+	.name
+	{
+		font-size: 18px;
+		padding-bottom: 0;
+		-webkit-text-stroke: .5px #000;
+		min-height: 18px;
+	}
+	.point
+	{
+		font-size: 16px;
+		padding-top: 5px;
+		width: 125px;
+		-webkit-text-stroke: .5px #000;
+	}
+	/* header END */
+	/* index */
+	.inx_sec
+	{
+		padding: 0 100px;
+	}	
+	.inx_table .game
+	{
+		width: 100px;
+	}
+	.inx_table .game_maintain
+	{
+		width: 80px;
+	}
+	.inx_table .game_stop
+	{
+		width: 85px;
+	}
+	/* machine */
+	.mach_table .game
+	{
+		width: 75px;
+	}
+	.mach_table span
+	{
+		top: 22px;
+		font-size: 9px;
+	}
+	/* machine END */
+	/* index END */
+}
+@media screen and (min-width: 790px)
+{
+	.inx_table .game_stop
+	{
+		width: 100px;
+	}
+}
+@media screen and (min-width: 900px)
+{
+	.inx_table .game_stop
+	{
+		width: 120px;
+	}
+}
+@media screen and (min-width: 1060px)
+{
+	.inx_table .game_stop
+	{
+		width: 160px;
+	}
+}

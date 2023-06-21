@@ -1,0 +1,776 @@
+/*
+	2021/07/31 V01
+*/
+
+/*****     Reset     *****/
+html , body
+{
+   	min-height: 100vh;
+	width: 100%;
+}
+
+html
+{
+	overflow-x: hidden;
+	
+}
+
+body
+{
+	touch-action: manipulation; /*不可連點*/
+	position: relative;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+	font-family: 微軟正黑體 , monospace; /* 等寬 */ /*越南'Times New Roman'*/
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a
+{
+    	text-decoration: none;
+}
+
+img
+{
+	width: 100%;
+	display: block;
+}
+
+input , button , select , textarea
+{
+	background: transparent;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+button , input[type="button"] , input[type="submit"] ,
+input[type="radio"] , input[type="checkbox"] , select
+{
+	-webkit-appearance: none !important;
+	-moz-appearance:none !important;
+	appearance: none !important;
+}
+
+table
+{
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+thead , tbody , tfoot , tr
+{
+	width: 100%;
+}
+
+td
+{
+	vertical-align: middle;
+}
+
+/*****     Class     *****/
+.FontGradient
+{
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.FontOverflowEllipsis
+{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.FontOverflowEllipsisWithRow
+{
+	overflow: hidden;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.BG
+{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Table
+{
+	display: table;
+}
+
+.Table > div
+{
+	display: table-row-group;
+	width: 100%;
+}
+
+.Table > div > div
+{
+	display: table-row;
+	width: 100%;
+}
+
+.Table > div > div > div ,
+.Table > div > div > a
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*****     Align-Items     *****/
+.AlignItemsFlexStart
+{
+	align-items: flex-start;
+}
+
+.AlignItemsCenter
+{
+	align-items: center;
+}
+
+.AlignItemsFlexEnd
+{
+	align-items: flex-end;
+}
+
+/*****     Box-Sizing     *****/
+.BoxSizingBorderBox
+{
+	box-sizing: border-box;
+}
+
+/*****     Border     *****/
+.BorderTop0
+{
+	border-top: 0 !important;
+}
+
+.BorderRight0
+{
+	border-right: 0 !important;
+}
+
+.BorderBottom0
+{
+	border-bottom: 0 !important;
+}
+
+.BorderLeft0
+{
+	border-left: 0 !important;
+}
+
+/*****     Clear    *****/
+.ClearBoth
+{
+	clear: both;
+}
+
+/*****     Cursor     *****/
+@media screen and (min-width:1180px)
+{
+	.cursorPointer
+	{
+		cursor: pointer;
+	}
+}
+
+/*****     Display     *****/
+.DisplayNone , .DisplayBlockNone , .DisplayInlineBlockNone ,
+.DisplayTableNone , .DisplayTableHeaderGroupNone , .DisplayTableRowGroupNone ,
+.DisplayTableFooterGroupNone , .DisplayTableRowNone , .DisplayTableCellNone ,
+.DisplayTheadNone , .DisplayTbodyNone , .DisplayTfootNone , .DisplayTrNone ,
+.DisplayThNone , .DisplayTdNone , .DisplayFlexNone , .DisplayInlineFlexNone ,
+.DisplayInlineNone
+{
+	display: none !important;	
+}
+
+.DisplayBlock , .DisplayBlockNone.active
+{
+	display: block !important;	
+}
+
+.DisplayInlineBlock , .DisplayInlineBlockNone.active
+{
+	display: inline-block !important;	
+}
+
+.DisplayInline , .DisplayInlineNone.active
+{
+	display: inline !important;	
+}
+
+.DisplayTable , .DisplayTableNone.active
+{
+	display: table !important;	
+}
+
+.DisplayTableHeaderGroup , .DisplayThead ,
+.DisplayTableHeaderGroupNone.active , .DisplayTheadNone.active
+{
+	display: table-header-group !important;	
+}
+
+.DisplayTableRowGroup , .DisplayTbody ,
+.DisplayTableRowGroupNone.active , .DisplayTbodyNone.active
+{
+	display: table-row-group !important;	
+}
+
+.DisplayTableFooterGroup , .DisplayTfoot ,
+.DisplayTableFooterGroupNone.active , .DisplayTfootNone.active
+{
+	display: table-footer-group !important;	
+}
+
+.DisplayTableRow , .DisplayTr ,
+.DisplayTableRowNone.active , .DisplayTrNone.active
+{
+	display: table-row !important;	
+}
+
+.DisplayTableCell , .DisplayTh , .DisplayTd ,
+.DisplayTableCellNone.active , .DisplayThNone.active , .DisplayTdNone.active
+{
+	display: table-cell !important;	
+}
+
+.DisplayFlex , .DisplayFlexNone.active
+{
+	display: flex !important;	
+}
+
+.DisplayInlineFlex , .DisplayInlineFlexNone.active
+{
+	display: inline-flex !important;	
+}
+
+/*****     Float     *****/
+.FloatLeft
+{
+	float: left;
+}
+
+.FloatRight
+{
+	float: right;
+}
+
+/*****     Font-Weight     *****/
+.FontWeight600
+{
+	font-weight: 600;
+}
+
+.FontWeightBolder
+{
+	font-weight: bolder;
+}
+
+/*****     Justify-content     *****/
+.JustifyContentFlexStart
+{
+	justify-content: flex-start;
+}
+
+.JustifyContentCenter
+{
+	justify-content: center;
+}
+
+.JustifyContentFlexEnd
+{
+	justify-content: flex-end;
+}
+
+/*****     Margin     *****/
+.MarginTop5
+{
+	margin: 5px 0 0 0;
+}
+
+.MarginTop10
+{
+	margin: 10px 0 0 0;
+}
+
+.MarginTop15
+{
+	margin: 15px 0 0 0;
+}
+
+.MarginTop20
+{
+	margin: 20px 0 0 0;
+}
+
+.MarginTop25
+{
+	margin: 25px 0 0 0;
+}
+
+.MarginTop30
+{
+	margin: 30px 0 0 0;
+}
+
+.MarginRight5
+{
+	margin: 0 5px 0 0;
+}
+
+.MarginRight10
+{
+	margin: 0 10px 0 0;
+}
+
+.MarginRight15
+{
+	margin: 0 15px 0 0;
+}
+
+.MarginRight20
+{
+	margin: 0 20px 0 0;
+}
+
+.MarginRight25
+{
+	margin: 0 25px 0 0;
+}
+
+.MarginRight30
+{
+	margin: 0 30px 0 0;
+}
+
+.MarginBottom5
+{
+	margin: 0 0 5px 0;
+}
+
+.MarginBottom10
+{
+	margin: 0 0 10px 0;
+}
+
+.MarginBottom15
+{
+	margin: 0 0 15px 0;
+}
+
+.MarginBottom20
+{
+	margin: 0 0 20px 0;
+}
+
+.MarginBottom25
+{
+	margin: 0 0 25px 0;
+}
+
+.MarginBottom30
+{
+	margin: 0 0 30px 0;
+}
+
+.MarginBottom35
+{
+	margin: 0 0 35px 0;
+}
+
+.MarginBottom40
+{
+	margin: 0 0 40px 0;
+}
+
+.MarginBottom45
+{
+	margin: 0 0 45px 0;
+}
+
+.MarginBottom50
+{
+	margin: 0 0 50px 0;
+}
+
+.MarginBottom60
+{
+	margin: 0 0 60px 0;
+}
+
+.MarginBottom70
+{
+	margin: 0 0 70px 0;
+}
+
+.MarginBottom100
+{
+	margin: 0 0 100px 0;
+}
+
+.MarginBottom120
+{
+	margin: 0 0 120px 0;
+}
+
+.MarginTopBottom5
+{
+	margin: 5px 0;
+}
+
+.MarginTopBottom10
+{
+	margin: 10px 0;
+}
+
+.MarginTopBottom15
+{
+	margin: 15px 0;
+}
+
+.MarginTopBottom20
+{
+	margin: 20px 0;
+}
+
+.MarginLeftRight5
+{
+	margin: 0 5px;
+}
+
+.MarginLeftRight10
+{
+	margin: 0 10px;
+}
+
+.MarginLeftRight15
+{
+	margin: 0 15px;
+}
+
+.MarginLeftRight20
+{
+	margin: 0 20px;
+}
+
+.MarginLeftRight25
+{
+	margin: 0 25px;
+}
+
+.MarginLeftRight30
+{
+	margin: 0 30px;
+}
+
+/*****     Overflow     *****/
+.OverflowYHidden
+{
+	overflow-y: hidden;
+}
+
+/*****     Padding     *****/
+.PaddingTop5
+{
+	padding: 5px 0 0 0;
+}
+
+.PaddingTop10
+{
+	padding: 10px 0 0 0;
+}
+
+.PaddingTop15
+{
+	padding: 15px 0 0 0;
+}
+
+.PaddingTop20
+{
+	padding: 20px 0 0 0;
+}
+
+.PaddingTop25
+{
+	padding: 25px 0 0 0;
+}
+
+.PaddingTop30
+{
+	padding: 30px 0 0 0;
+}
+
+.PaddingTop35
+{
+	padding: 35px 0 0 0;
+}
+
+.PaddingRight5
+{
+	padding: 0 5px 0 0;
+}
+
+.PaddingRight10
+{
+	padding: 0 10px 0 0;
+}
+
+.PaddingRight15
+{
+	padding: 0 15px 0 0;
+}
+
+.PaddingRight20
+{
+	padding: 0 20px 0 0;
+}
+
+.PaddingRight25
+{
+	padding: 0 25px 0 0;
+}
+
+.PaddingRight30
+{
+	padding: 0 30px 0 0;
+}
+
+.PaddingRight35
+{
+	padding: 0 35px 0 0;
+}
+
+.PaddingBottom5
+{
+	padding: 0 0 5px 0;
+}
+
+.PaddingBottom10
+{
+	padding: 0 0 10px 0;
+}
+
+.PaddingBottom15
+{
+	padding: 0 0 15px 0;
+}
+
+.PaddingBottom20
+{
+	padding: 0 0 20px 0;
+}
+
+.PaddingBottom25
+{
+	padding: 0 0 25px 0;
+}
+
+.PaddingBottom30
+{
+	padding: 0 0 30px 0;
+}
+
+.PaddingBottom35
+{
+	padding: 0 0 35px 0;
+}
+
+.PaddingLeft5
+{
+	padding: 0 0 0 5px;
+}
+
+.PaddingLeft10
+{
+	padding: 0 0 0 10px;
+}
+
+.PaddingLeft15
+{
+	padding: 0 0 0 15px;
+}
+
+.PaddingLeft20
+{
+	padding: 0 0 0 20px;
+}
+
+.PaddingLeft25
+{
+	padding: 0 0 0 25px;
+}
+
+.PaddingLeft30
+{
+	padding: 0 0 0 30px;
+}
+
+.PaddingLeft35
+{
+	padding: 0 0 0 35px;
+}
+
+.PaddingTopBottom5
+{
+	padding: 5px 0;
+}
+
+.PaddingTopBottom10
+{
+	padding: 10px 0;
+}
+
+.PaddingTopBottom15
+{
+	padding: 15px 0;
+}
+
+.PaddingTopBottom20
+{
+	padding: 20px 0;
+}
+
+.PaddingTopBottom25
+{
+	padding: 25px 0;
+}
+
+.PaddingTopBottom30
+{
+	padding: 30px 0;
+}
+
+.PaddingTopBottom35
+{
+	padding: 35px 0;
+}
+
+.PaddingLeftRight5
+{
+	padding: 0 5px;
+}
+
+.PaddingLeftRight10
+{
+	padding: 0 10px;
+}
+
+.PaddingLeftRight15
+{
+	padding: 0 15px;
+}
+
+.PaddingLeftRight20
+{
+	padding: 0 20px;
+}
+
+.PaddingLeftRight25
+{
+	padding: 0 25px;
+}
+
+.PaddingLeftRight30
+{
+	padding: 0 30px;
+}
+
+.PaddingLeftRight35
+{
+	padding: 0 35px;
+}
+
+/*****     Position     *****/
+.PosTop0 /* position: top; */
+{
+	top: 0 !important;
+}
+
+.PosRight0 /* position: right; */
+{
+	right: 0 !important;
+}
+
+.PosBottom0 /* position: bottom; */
+{
+	bottom: 0 !important;
+}
+
+.PosLeft0 /* position: left; */
+{
+	left: 0 !important;
+}
+
+/*****     Text-align     *****/
+.TextAlignLeft
+{
+	text-align: left !important;
+}
+
+.TextAlignCenter
+{
+	text-align: center !important;
+}
+
+.TextAlignRight
+{
+	text-align: right !important;
+}
+
+/*****     Vertical-align     *****/
+.VerticalAlignTop
+{
+	vertical-align: top !important;
+}
+
+.VerticalAlignMiddle
+{
+	vertical-align: middle !important;
+}
+
+.VerticalAlignBottom
+{
+	vertical-align: bottom !important;
+}
+
+/*****     Width     *****/
+.Width100Percent
+{
+	width: 100%;
+}
+
+/*****     Word     *****/
+.WordBreakBreakAll
+{
+	word-break: break-all;
+}
+
+.WordBreakKeepAll
+{
+	word-break: keep-all;
+}

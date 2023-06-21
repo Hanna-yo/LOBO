@@ -1,0 +1,678 @@
+body
+{
+	background-color: #000;
+	color: #fff;
+	font-family: Arial,"微軟正黑體","PMingLiU","Microsoft JhengHei","Heiti TC","WenQuanYi Zen Hei";
+}
+article
+{
+	padding: 3px;
+}
+h1,h2
+{
+	padding: 20px 0px;
+	font-size: 26px;
+}
+h2
+{
+	font-size: 24px;
+}
+h3
+{
+	padding: 5px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* 基本資料 */
+.accTab
+{
+	width: 100%;
+	font-size: 18px;
+	background-color: #303030;
+	text-align: center;
+	margin-bottom: 20px;   			
+}
+.accTab td 
+{
+	vertical-align: middle;
+}
+.accTab > tbody > tr > td
+{
+	padding: 10px 5px;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+.accTab span:after
+{
+	content: "：";
+}
+.accTab .sumNegTot, .accTab .sumNegTot:after
+{
+	color: #FE0000;
+	content: unset;
+}
+.accTab .sumAddTot, .accTab .sumAddTot:after
+{
+	color: #24FF00;
+	content: unset;
+}
+.accBor
+{
+	border-bottom: 1px solid #fff;
+}
+.accTab p
+{
+	border-right: 1px solid #fff;
+	padding-right: 3px;
+}
+.accTab .nbor
+{
+	border: 0;
+}
+/* 基本資料 End */
+.bgColor
+{
+	background-color: #303030;
+}
+.topRound
+{
+	text-align: center;
+	padding-top: 5px;
+}
+.topCount
+{
+	text-align: center;
+	padding: 7px 0 5px;
+	border-bottom: 1px solid #fff;
+}
+.container
+{
+	overflow-y : auto;
+	padding: 6px 0 4px;
+}
+.container table
+{
+	margin: auto;
+}
+/* 圖 */
+.bgDiv
+{
+	max-width: 980px;
+	position: relative;
+}
+.bgDiv > img
+{
+	-webkit-filter: brightness(.5);
+	filter: brightness(.5);
+}
+/* 彩池 */
+.PotTop, .PotBottom
+{
+	position: absolute;
+	left: 300px;
+}		
+.PotTop
+{
+	top: 173px;
+}
+.PotTop > div, .PotBottom > div
+{
+	display: inline-block;
+	position: relative;
+	margin-right: 30px;
+}
+.PotTop > div > span, .PotBottom > div > span
+{
+	position: absolute;
+	z-index: 1;
+	top: 7px;
+	left: 33px;
+	width: 41px;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+.PotTop > div > .nPot, .PotBottom > div > .nPot
+{
+	left: -14px;
+	font-weight: bold;
+	color: #fff;
+}
+.PotBottom
+{
+	top: 329px;
+}
+/* 彩池 End */
+/* 公牌 */
+.CardImg
+{
+	position: absolute;
+	top: 216px;
+	left: 295px;
+}
+.CardImg img
+{
+	width: 80px;
+	margin: -2px;
+}
+/* 公牌 End */
+/* 座位 */
+.Set1, .Set2, .Set3, .Set4, .Set5, .Set6, .Set7, .Set8
+{
+	position: absolute;
+}
+/* 玩家代號、金額 */
+.SetTextL, .SetTextR, .SetTextTR, .SetTextTL
+{
+	position: absolute;	
+	width: 121px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.2em;
+	color: #FFCC66;
+}
+.SetTextTR, .SetTextTL
+{
+	top: 6px;
+}
+.SetTextTR img, .SetTextTL img
+{
+	margin-bottom: -7px;
+}
+img.SetTextR, img.SetTextL
+{
+	width: auto;
+	top: -30px;
+	left: -6px;
+}
+p.SetTextR, p.SetTextL
+{
+	bottom: -19px;
+	z-index: 2;
+}
+p.SetTextR
+{
+	right: -15px;
+}
+p.SetTextL
+{
+	left: -15px;
+}
+.SetTextTR
+{
+	left: 75px;
+	text-align: left;
+}
+.SetTextTL
+{
+	right: 75px;
+	text-align: right;
+}
+/* 玩家代號、金額 End */
+/* 手牌 */
+.handCardR, .handCardL, .handCardTR, .handCardTL
+{
+	position: absolute;	
+}
+.handCardR
+{
+	left: -116px;
+}
+.handCardL
+{
+	right: -116px;
+}
+.handCardTR
+{
+	left: -116px;
+}
+.handCardTL
+{
+	right: -116px;
+}
+.handCardTR, .handCardTL
+{
+	top: 3px;
+}
+.handCardR, .handCardL
+{
+	top: -16px;
+}
+.handCardR img, .handCardL img, .handCardTR img, .handCardTL img
+{
+	width: 80px;
+}
+.handCardR .card2, .handCardL .card2, .handCardTR .card2, .handCardTL .card2
+{
+	margin-left: -49px;
+}
+/* 手牌 End */
+/* 牌型 */
+.handCardR .result, .handCardL .result, .handCardTR .result, .handCardTL .result
+{
+	width: 70px;
+	position: absolute;
+	bottom: 2px;
+	right: 22px;
+	z-index: 1;
+}
+.handCardR .res1, .handCardL .res1, .handCardTR .res1, .handCardTL .res1
+{
+	width: 85px;
+	bottom: 3px;
+	right: 15px;
+}
+.handCardR .res0, .handCardL .res0, .handCardTR .res0, .handCardTL .res0
+{
+	width: 90px;
+	bottom: 4px;
+	right: 12px;
+}
+.handCardTR .result, .handCardTL .result, .handCardTR .res1, .handCardTL .res1, .handCardTR .res0, .handCardTL .res0
+{
+	bottom: 17px;
+}
+/* 牌型 End */
+/* 座位圖 */
+.nameArea
+{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+/* 座位圖 End */
+/* 棄牌 */
+.giveup
+{
+	position: absolute;
+	left: 3px;
+	z-index: 3;
+	bottom: 10px;
+}
+/* 棄牌 End */
+/* 大小盲、莊 */
+.SBD
+{
+	position: absolute;
+	left: -4px;
+	top: 0px;
+	z-index: 2;
+}
+/* 大小盲、莊 End */
+/* 贏的金額 */
+.PlayerWinTL, .PlayerWinTR, .PlayerWinL, .PlayerWinR
+{
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #F7E29C;
+	-webkit-text-stroke: 1px #FFC107;
+	width: 150px;	
+	z-index: 3;
+}
+.PlayerWinTL, .PlayerWinTR
+{
+	top: 19px;
+}
+.PlayerWinL, .PlayerWinR
+{
+	top: 0;
+}
+.PlayerWinTL
+{
+	right: 47px;
+}
+.PlayerWinTR
+{
+	left: 47px;
+}
+.PlayerWinL
+{
+	left: -10px;
+}
+.PlayerWinR
+{
+	right: 10px;
+}
+/* 贏的金額 End */
+/* WinImg */
+.winImg
+{
+	position: absolute;
+	width: 100px;
+	top: -9px;
+	right: -14px;
+	z-index: 2;
+}
+/* WinImg End */
+.Set1, .Set8
+{
+	top: 28px;
+}
+.Set2, .Set7
+{
+	top: 117px;
+}
+.Set3, .Set6
+{
+	bottom: 229px;
+}
+.Set4, .Set5
+{
+	bottom: 108px;
+}
+.Set1
+{
+	right: 145px;
+}
+.Set2, .Set3
+{
+	right: 15px;
+}
+.Set4
+{
+	right: 30px;
+}
+.Set5
+{
+	left: 30px;
+}
+.Set6, .Set7
+{
+	left: 15px;
+}
+.Set8
+{
+	left: 145px;
+}
+/* 座位 End */
+/* 圖 End */
+/* 文字 */
+.PlayerText, .PlayerTextB
+{
+	vertical-align: middle;
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.PlayerText p
+{
+	text-align: left;
+}
+.PlayerTextB p
+{
+	text-align: center;
+}
+.PlayerText .green, .PlayerTextB .green
+{
+	color: #24FF00;
+}
+.PlayerText .red, .PlayerTextB .red
+{
+	color: #FE0000;
+}
+.PlayerText .gold, .PlayerTextB .gold
+{
+	color: gold;
+}
+.PlayerText
+{
+	display: none;	
+}
+.box
+{
+	height: 543px;
+	line-height: 543px;
+	text-align: center;
+	overflow: auto;
+}
+.box2 .contentText
+{
+	display: inline-block;
+	line-height: 1.5em;
+	vertical-align: middle;
+	overflow: auto;
+}
+.PlayerTextB
+{
+	padding: 0 10px 5px;
+	width: auto;
+}
+.PlayerTextB .bor
+{
+	padding-top: 10px;
+	border-top: 1px solid #fff;
+}
+/* 文字 End */
+@media screen and (min-width: 1230px)
+{
+	/* 文字 */
+	.PlayerTextB
+	{
+		display: none;
+	}
+	.PlayerText
+	{
+		display: table-cell;
+	}
+	/* 文字 End */
+}
+@media screen and (max-width: 600px)
+{
+	/* 基本資料 */
+	h1, h2
+	{
+		font-size: 22px;
+		padding: 10px 0;
+	}
+	h2
+	{
+		font-size: 20px;
+	}
+	.accTab
+	{
+		font-size: 16px;
+	}
+	/* 基本資料 End */
+	.bgDiv > img
+	{
+		width: 575px;
+	}
+	/* 牌桌 */
+	.CardImg
+	{
+		top: 134px;
+		left: 195px;
+	}
+	.CardImg img
+	{
+		width: 40px;
+	}
+	/* 彩池 */
+	.PotTop, .PotBottom
+	{
+		left: 160px;
+	}
+	.PotTop img, .PotBottom img
+	{
+		width: 75px;
+	}
+	.PotTop > div, .PotBottom > div
+	{
+		margin-right: 20px;
+	}
+	.PotTop > div > span, .PotBottom > div > span
+	{
+		font-size: 14px;
+		top: 6px;
+		left: 30px;
+	}
+	.PotTop
+	{
+		top: 100px;
+	}
+	.PotBottom
+	{
+		top: 187px;
+	}	
+	/* 彩池 End */
+	/* 牌桌 End */
+	/* 大小盲 */
+	.SBD
+	{
+		width: 26px;
+	}
+	/* 大小盲 End */
+	/* 手牌 */
+	.handCardR img, .handCardL img, .handCardTR img, .handCardTL img
+	{
+		width: 40px;
+	}
+	.handCardR .card2, .handCardL .card2, .handCardTR .card2, .handCardTL .card2
+	{
+		margin-left: -25px;
+	}
+	.handCardR, .handCardL
+	{
+		top: -2px;
+	}
+	.handCardTR
+	{
+		left: -60px;
+	}
+	.handCardTL
+	{
+		right: -60px;
+	}
+	.handCardR
+	{
+		left: -60px;
+	}
+	.handCardL
+	{
+		right: -62px;
+	}
+	/* 牌型 */
+	.handCardR .result, .handCardL .result, .handCardTR .result, .handCardTL .result
+	{
+		width: 45px;
+		right: 8px;
+	}
+	.handCardTR .result, .handCardTL .result, .handCardTR .res1, .handCardTL .res1, .handCardTR .res0, .handCardTL .res0
+	{
+		bottom: 3px;
+	}
+	.handCardR .res0, .handCardL .res0, .handCardTR .res0, .handCardTL .res0
+	{
+		width: 50px;
+		right: 5px;
+	}
+	/* 牌型 End */
+	/* 手牌 End */	
+	/* 座位 */
+	.nameImg, .nameArea
+	{
+		width: 50px;
+	}
+	.Set1
+	{
+		right: 97px;
+	}
+	.Set8
+	{
+		left: 97px;
+	}
+	.Set1, .Set8
+	{
+		top: 9px;
+	}
+	.Set2, .Set7
+	{
+		top: 67px;
+	}
+	.Set3, .Set6
+	{
+		bottom: 112px;
+	}
+	.Set4, .Set5
+	{
+		bottom: 22px;
+	}
+	/* 座位 End */
+	/* 輸贏金額 */
+	.PlayerWinTL, .PlayerWinTR
+	{
+		top: 13px;
+	}
+	.PlayerWinTL, .PlayerWinTR, .PlayerWinL, .PlayerWinR
+	{
+		width: 118px;
+		font-size: 22px;
+	}
+	.PlayerWinTR
+	{
+		left: 25px;
+	}
+	.PlayerWinTL
+	{
+		right: 25px;
+	}	
+	/* 輸贏金額 End */
+	/* WinImg */
+	.winImg
+	{
+		width: 75px;
+	}
+	/* WinImg End */
+	/* 棄牌 */
+	.giveup
+	{
+		width: 46px;
+		left: 3px;
+	}
+	/* 棄牌 End */
+	/* 玩家代號、金額 */
+	.SetTextTR, .SetTextTL
+	{
+		top: 0;
+	}
+	.SetTextTR img, .SetTextTL img
+	{
+		margin-bottom: -10px;
+		width: 60px;
+	}
+	.SetTextL, .SetTextR, .SetTextTR, .SetTextTL
+	{
+		font-size: 16px;
+	}
+	img.SetTextR, img.SetTextL
+	{
+		width: 60px;
+		top: -24px;
+	}
+	p.SetTextR, p.SetTextL
+	{
+		width: 100px;
+	}
+	p.SetTextR
+	{
+		right: -7px;
+	}
+	.SetTextTR
+	{
+		left: 50px;
+	}
+	.SetTextTL
+	{
+		right: 54px;
+	}
+	/* 玩家代號、金額 End*/
+	/* 文字 */
+	.PlayerTextB
+	{
+		font-size: 16px;
+	}
+	/* 文字 End */
+}

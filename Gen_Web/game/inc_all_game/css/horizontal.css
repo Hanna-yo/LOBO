@@ -1,0 +1,47 @@
+#Blackbg
+{
+	display: block;
+	background: rgb(0,0,0);
+	position: absolute;
+	width:100%;
+	height:999px;
+	z-index: 999999;
+	text-align:center;
+}
+.fullscreenImg, .TurnImg, .TurnImg1
+{
+	display: none;
+}
+.TurnImg, .TurnImg:after, .TurnImg1
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.TurnImg:after, .TurnImg1
+{
+	background-image: url("../img/fullscreen/img_turn1.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.fullscreenImg
+{
+	z-index: 9999;
+	margin: auto;
+}
+.TurnImg
+{
+	background: #000;	
+}
+.TurnImg:after
+{
+	content: "";
+}
+.TurnImg1
+{
+	height: 20%;
+}

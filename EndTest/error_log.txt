@@ -1,0 +1,226 @@
+[10-Jan-2021 15:34:41 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[10-Jan-2021 15:34:41 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[10-Jan-2021 15:34:41 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[10-Jan-2021 15:34:41 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[10-Jan-2021 15:34:41 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[10-Jan-2021 15:34:41 Asia/Taipei] SQL Error : [1054]Unknown column 'sAccount' in 'field list'
+[10-Jan-2021 15:35:54 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[10-Jan-2021 15:35:54 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[10-Jan-2021 15:35:54 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[10-Jan-2021 15:35:54 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[10-Jan-2021 15:35:54 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[10-Jan-2021 15:35:54 Asia/Taipei] SQL Error : [1054]Unknown column 'sAccount' in 'field list'
+[10-Jan-2021 15:37:03 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[10-Jan-2021 15:37:03 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[10-Jan-2021 15:37:03 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[10-Jan-2021 15:37:03 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[10-Jan-2021 15:37:03 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[10-Jan-2021 15:39:20 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[10-Jan-2021 15:39:20 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[10-Jan-2021 15:39:20 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[10-Jan-2021 15:39:20 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[10-Jan-2021 15:39:20 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[10-Jan-2021 15:39:20 Asia/Taipei] SQL Error : [1054]Unknown column 'sAccount' in 'field list'
+[10-Jan-2021 15:40:12 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[10-Jan-2021 15:40:12 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[10-Jan-2021 15:40:12 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[10-Jan-2021 15:40:12 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[10-Jan-2021 15:40:12 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[10-Jan-2021 15:42:07 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[10-Jan-2021 15:42:07 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[10-Jan-2021 15:42:07 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[10-Jan-2021 15:42:07 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[10-Jan-2021 15:42:07 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:17 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 301 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 238  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:42:21 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[10-Jan-2021 15:44:41 Asia/Taipei] [none]提醒:  Undefined offset: 0 in /home/lebogame2/EndTest/pages/end_report/php/_end_log_account_0.php on line 237  [admroot]()[pages/end_report/php/_end_log_account_0.php]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[20-Jan-2021 15:49:08 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[20-Jan-2021 15:52:57 Asia/Taipei] SQL Error : [1064]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '93)
+					AND		G_Type IN (0,2)
+					AND   	G_Enabled != 99' at line 5
+[20-Jan-2021 15:52:57 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [ ]()[ ] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(230): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(24): getAcc->getMemberData()
+#3 /home/lebogame2/EndTest/inc/tool/get_acc.php(234): getAcc->getAcc()
+#4 {main}
+[20-Jan-2021 15:53:27 Asia/Taipei] SQL Error : [1064]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '93)
+					AND		G_Type IN (0,2)
+					AND   	G_Enabled != 99' at line 5
+[20-Jan-2021 15:53:27 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [ ]()[ ] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(230): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(24): getAcc->getMemberData()
+#3 /home/lebogame2/EndTest/inc/tool/get_acc.php(234): getAcc->getAcc()
+#4 {main}
+[20-Jan-2021 15:54:13 Asia/Taipei] SQL Error : [1064]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '93)
+					AND		G_Type IN (0,2)
+					AND   	G_Enabled != 99' at line 5
+[20-Jan-2021 15:54:13 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [ ]()[ ] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(230): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(24): getAcc->getMemberData()
+#3 /home/lebogame2/EndTest/inc/tool/get_acc.php(234): getAcc->getAcc()
+#4 {main}
+[20-Jan-2021 15:54:32 Asia/Taipei] SQL Error : [1064]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '93)
+					AND		G_Type IN (0,2)
+					AND   	G_Enabled != 99' at line 5
+[20-Jan-2021 15:54:32 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [ ]()[ ] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(230): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(24): getAcc->getMemberData()
+#3 /home/lebogame2/EndTest/inc/tool/get_acc.php(234): getAcc->getAcc()
+#4 {main}
+[21-Jan-2021 15:19:39 Asia/Taipei] [none]提醒:  Undefined index: pages/client_user_data/php/_client_user_data_1_upt1.php in /home/lebogame2/EndTest/pages/client_user_data/php/_client_user_data_1.php on line 26  [admroot]()[pages/client_user_data/php/_client_user_data_1.php]
+[21-Jan-2021 15:19:39 Asia/Taipei] [none]提醒:  Undefined index:  in /home/lebogame2/EndTest/inc/#Function.php on line 15  [admroot]()[pages/client_user_data/php/_client_user_data_1.php]
+[21-Jan-2021 15:19:39 Asia/Taipei] [none]提醒:  Undefined index:  in /home/lebogame2/EndTest/inc/#Function.php on line 114  [admroot]()[pages/client_user_data/php/_client_user_data_1.php]
+[21-Jan-2021 15:19:39 Asia/Taipei] [none]提醒:  Undefined offset: 1 in /home/lebogame2/EndTest/inc/#Function.php on line 127  [admroot]()[pages/client_user_data/php/_client_user_data_1.php]
+[08-Feb-2021 16:16:31 Asia/Taipei] SQL Error : [1064]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '93)
+					AND		G_Type IN (0,2)
+					AND   	G_Enabled != 99' at line 5
+[08-Feb-2021 16:16:31 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [ ]()[ ] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(230): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/tool/_class_getAcc.php(24): getAcc->getMemberData()
+#3 /home/lebogame2/EndTest/inc/tool/get_acc.php(234): getAcc->getAcc()
+#4 {main}
+[08-Feb-2021 16:24:06 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[08-Feb-2021 16:24:06 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[08-Feb-2021 16:24:06 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[08-Feb-2021 16:24:06 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[08-Feb-2021 16:24:06 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[08-Feb-2021 16:24:41 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[08-Feb-2021 16:24:41 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[08-Feb-2021 16:24:41 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[08-Feb-2021 16:24:41 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[08-Feb-2021 16:24:41 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[08-Feb-2021 16:27:13 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[08-Feb-2021 16:27:13 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[08-Feb-2021 16:27:13 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[08-Feb-2021 16:27:13 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[08-Feb-2021 16:27:13 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[08-Feb-2021 16:28:40 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[08-Feb-2021 16:28:40 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[08-Feb-2021 16:28:40 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[08-Feb-2021 16:28:40 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[08-Feb-2021 16:28:40 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[08-Feb-2021 16:29:16 Asia/Taipei] SQL Error : [1054]Unknown column 'nWinUnits' in 'where clause'
+[08-Feb-2021 16:29:16 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [admroot]()[pages/end_report/php/_end_report_lottery_0.php] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/pages/end_report/php/_end_report_lottery_0.php(234): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/#IsLogin.php(172): require_once('/home/lebogame2...')
+#3 /home/lebogame2/EndTest/index.php(11): require_once('/home/lebogame2...')
+#4 {main}
+[08-Feb-2021 16:29:21 Asia/Taipei] SQL Error : [1054]Unknown column 'nWinUnits' in 'where clause'
+[08-Feb-2021 16:29:21 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [admroot]()[pages/end_report/php/_end_report_lottery_0.php] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/pages/end_report/php/_end_report_lottery_0.php(234): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/#IsLogin.php(172): require_once('/home/lebogame2...')
+#3 /home/lebogame2/EndTest/index.php(11): require_once('/home/lebogame2...')
+#4 {main}
+[08-Feb-2021 16:30:41 Asia/Taipei] SQL Error : [1054]Unknown column 'nWinUnits' in 'where clause'
+[08-Feb-2021 16:30:41 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [admroot]()[pages/end_report/php/_end_report_lottery_0.php] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/pages/end_report/php/_end_report_lottery_0.php(234): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/#IsLogin.php(172): require_once('/home/lebogame2...')
+#3 /home/lebogame2/EndTest/index.php(11): require_once('/home/lebogame2...')
+#4 {main}
+[08-Feb-2021 16:47:36 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[08-Feb-2021 16:47:36 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[08-Feb-2021 16:47:36 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[08-Feb-2021 16:47:36 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[08-Feb-2021 16:47:36 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[08-Feb-2021 16:48:48 Asia/Taipei] [none]提醒:  Undefined index: nBetBase in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 75  [ ]()[ ]
+[08-Feb-2021 16:48:48 Asia/Taipei] [none]提醒:  Undefined index: nBetBonus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 76  [ ]()[ ]
+[08-Feb-2021 16:48:48 Asia/Taipei] [none]提醒:  Undefined index: nSysPoint in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 77  [ ]()[ ]
+[08-Feb-2021 16:48:48 Asia/Taipei] [none]提醒:  Undefined index: nGoalType in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 78  [ ]()[ ]
+[08-Feb-2021 16:48:48 Asia/Taipei] [none]提醒:  Undefined index: nWinStatus in /home/lebogame2/EndTest/inc/tool/_class_getAcc.php on line 82  [ ]()[ ]
+[08-Feb-2021 16:54:47 Asia/Taipei] SQL Error : [1054]Unknown column 'nWinUnits' in 'where clause'
+[08-Feb-2021 16:54:47 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [admroot]()[pages/end_report/php/_end_report_lottery_0.php] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/EndTest/pages/end_report/php/_end_report_lottery_0.php(234): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/#IsLogin.php(172): require_once('/home/lebogame2...')
+#3 /home/lebogame2/EndTest/index.php(11): require_once('/home/lebogame2...')
+#4 {main}
+[29-Aug-2022 18:21:16 Asia/Taipei] SQL Error : [1146]Table 'mt_db.end_manager_cookie' doesn't exist
+[29-Aug-2022 18:21:16 Asia/Taipei] [none]錯誤[0]:  There is no active transaction in /home/lebogame2/System/Connect/BaseCtrl.php on line 72  [ ]()[pages/index/php/_index_0.php] 
+Stack trace:#0 /home/lebogame2/System/Connect/BaseCtrl.php(72): PDO->rollBack()
+#1 /home/lebogame2/System/Connect/UserClass.php(184): sql_query(Object(PDOStatement))
+#2 /home/lebogame2/EndTest/inc/#IsLogin.php(27): oUser->checkCookie()
+#3 /home/lebogame2/EndTest/index.php(11): require_once('/home/lebogame2...')
+#4 {main}

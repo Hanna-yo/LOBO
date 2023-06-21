@@ -1,0 +1,127 @@
+/*
+	2021/07/28
+*/
+
+body::after
+{
+	height: calc(100% + 72vw);
+}
+
+/*1***    Class    *****/
+.DevicePc
+{
+	display: none;
+}
+
+.DeviceMobile
+{
+	display: block;
+}
+
+/*************** 共同 ***************/
+/*1***    Hall    *****/
+.indexBox
+{
+	padding: 6.038vw 3.623vw 0 3.623vw;
+}
+
+.indexBg
+{
+	background-size: 100% auto !important;
+	background-repeat: repeat !important;
+}
+
+/*2**   Hall-Header   ****/
+.indexHeaderBox
+{
+	flex-wrap: wrap;
+	margin: 0 0 6.038vw 0;
+}
+
+/*3*  Hall-Header-Inf  ***/
+.indexHeaderInfBox , .indexHeaderInfInner
+{
+	border-radius: 6.038vw;
+}
+
+.indexHeaderInfBox
+{
+	width: 100%;
+	order: 3;
+	margin: 3.623vw 0 0 0;
+	padding: .966vw;
+}
+
+.indexHeaderInfInner
+{
+	box-shadow: inset 0 1.4492vw 0 0 rgba(255,255,255,.2), inset 0 -1.4492vw 0 0 rgba(0,0,0,.1);
+	padding: 2.898vw 3.623vw;
+}
+
+.indexHeaderInf
+{
+	box-shadow: inset 0 .966vw 0 0 rgba(0,0,0,.1);
+	width: unset;
+	flex: 1;
+}
+
+.indexHeaderInfIcon
+{
+	width: 6.038vw;
+}
+
+.indexHeaderInfValTxt
+{
+	font-size: 2.898vw;
+	padding: 1.207vw 2.415vw;
+}
+
+/*3*  Hall-Header-Logo  ***/
+.indexHeaderLogo
+{
+	width: 48.309vw;
+}
+
+/*3*  Hall-Header-Back  ***/
+.indexHeaderBtnBack
+{
+	width: 14.009vw;
+}
+
+/*2**   Hall-game   ****/
+.indexGameBox
+{
+	margin: 0 0 -3.623vw 0;
+}
+
+.indexGameBtn:not(:nth-child(4n))
+{
+	margin: unset;
+}
+
+.indexGameBtn
+{
+	display: block;
+	width: calc((100% - 7.246vw)/2);
+	margin: 0 0 3.623vw 0;
+}
+
+.indexGameBtn:not(:nth-child(2n))
+{
+	margin: 0 7.246vw 3.623vw 0;
+}
+
+.indexGameBtnImg
+{
+	margin: 0 0 .483vw 0;
+}
+
+.indexGameBtnImgTxt
+{
+	font-size: 6.5vw;	
+}
+
+.indexGameBtnTxt
+{
+	font-size: 2.898vw;
+}
